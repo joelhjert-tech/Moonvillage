@@ -1,0 +1,17 @@
+{
+  "Changes": [
+    {
+      "LogName": "Vägen ut från värdshuset",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_oldMooninn",
+      "AddWarps": [ 
+	  "1 9 Custom_Moonvillage 9 14",
+	  "2 9 Custom_Moonvillage 9 14", 
+	  "3 9 Custom_Moonvillage 9 14",
+	  "5 9 Custom_Moonvillage 9 14",
+	  "6 9 Custom_Moonvillage 9 14", 
+	  "4 9 Custom_Moonvillage 9 14" 
+	  ]
+    }
+  ]
+}

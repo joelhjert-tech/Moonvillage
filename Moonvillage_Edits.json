@@ -1,0 +1,234 @@
+{
+  "Changes": [
+    /* --- 1. KARTÄNDRINGAR: MOONVILLAGE --- */
+    {
+      "LogName": "Add warps and interaction messages to Moonvillage",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_Moonvillage",
+      "AddWarps": [
+        "38 20 Backwoods 1 21",
+        "38 21 Backwoods 1 21",
+        "27 13 Custom_Annettehouse 4 6",
+        "28 13 Custom_Annettehouse 4 6"
+      ],
+      "MapProperties": {
+        "NPCWarp": "37 21 BusStop 1 23"
+      },
+      "MapTiles": [
+        {
+          "Position": { "X": 12, "Y": 44 },
+          "Layer": "Buildings",
+          "SetProperties": { "Action": "Message Moonvillage.FoodPrep" }
+        },
+        {
+          "Position": { "X": 9, "Y": 42 },
+          "Layer": "Buildings",
+          "SetProperties": { "Action": "Message Moonvillage.FoodPrep" }
+        },
+        {
+          "Position": { "X": 62, "Y": 23 },
+          "Layer": "Buildings",
+          "SetProperties": { "Action": "Message Moonvillage.RoadSignenter" }
+        },
+        {
+          "Position": { "X": 20, "Y": 11 },
+          "Layer": "Buildings",
+          "SetProperties": { "Action": "Message Moonvillage.RoadSign" }
+        }
+      ]
+    },
+
+    /* --- 2. MEDDELANDE OCH BREV-TRIGGER EFTER BUNDLES --- */
+    {
+      "LogName": "Annette Bundle Notification Action",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "AnnetteHouse_BundleComplete": {
+          "Id": "AnnetteHouse_BundleComplete",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "spacechase0.SpaceCore_ShowHudMessage \"You've dropped off all the materials! Annette needs some time to build. Come back tomorrow!\"",
+            "AddMail Current AnnetteHouse_Ready"
+          ],
+          "Condition": "LOCATION_NAME Here Custom_Moonvillage, !PLAYER_HAS_MAIL Current AnnetteHouse_Ready"
+        }
+      },
+      "When": {
+        "DLX.Bundles/Purchased": "AnnetteHouseBundle"
+      }
+    },
+    {
+      "LogName": "MoonInn Bundle Notification Action",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "MoonInn_BundleComplete": {
+          "Id": "MoonInn_BundleComplete",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "spacechase0.SpaceCore_ShowHudMessage \"Materials delivered! The Moon Inn is being restored.\"",
+            "AddMail Current MoonInn_Ready"
+          ],
+          "Condition": "LOCATION_NAME Here Custom_Moonvillage, !PLAYER_HAS_MAIL Current MoonInn_Ready"
+        }
+      },
+      "When": {
+        "DLX.Bundles/Purchased": "MoonInnBundle"
+      }
+    },
+    {
+      "LogName": "SpiritHealer Bundle Notification Action",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "SpiritHealer_BundleComplete": {
+          "Id": "SpiritHealer_BundleComplete",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "spacechase0.SpaceCore_ShowHudMessage \"Materials delivered! The Spirit Healer's home is being restored.\"",
+            "AddMail Current SpiritHealer_Ready"
+          ],
+          "Condition": "LOCATION_NAME Here Custom_Moonvillage, !PLAYER_HAS_MAIL Current SpiritHealer_Ready"
+        }
+      },
+      "When": {
+        "DLX.Bundles/Purchased": "SpiritHealerBundle"
+      }
+    },
+    {
+      "LogName": "Herbalist Bundle Notification Action",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "Herbalist_BundleComplete": {
+          "Id": "Herbalist_BundleComplete",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "spacechase0.SpaceCore_ShowHudMessage \"Materials delivered! The Herbalist House is being restored.\"",
+            "AddMail Current HerbalistHouse_Ready"
+          ],
+          "Condition": "LOCATION_NAME Here Custom_Moonvillage, !PLAYER_HAS_MAIL Current HerbalistHouse_Ready"
+        }
+      },
+      "When": {
+        "DLX.Bundles/Purchased": "HerbalistHouseBundle"
+      }
+    },
+    {
+      "LogName": "MoonGranary Bundle Notification Action",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "MoonGranary_BundleComplete": {
+          "Id": "MoonGranary_BundleComplete",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "spacechase0.SpaceCore_ShowHudMessage \"Materials delivered! The Moon Granary is being restored.\"",
+            "AddMail Current MoonGranary_Ready"
+          ],
+          "Condition": "LOCATION_NAME Here Custom_Moonvillage, !PLAYER_HAS_MAIL Current MoonGranary_Ready"
+        }
+      },
+      "When": {
+        "DLX.Bundles/Purchased": "MoonGranaryBundle"
+      }
+    },
+    {
+      "LogName": "MoonGrocery Bundle Notification Action",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "MoonGrocery_BundleComplete": {
+          "Id": "MoonGrocery_BundleComplete",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "spacechase0.SpaceCore_ShowHudMessage \"Materials delivered! The Moon Grocery Store is being restored.\"",
+            "AddMail Current MoonGrocery_Ready"
+          ],
+          "Condition": "LOCATION_NAME Here Custom_Moonvillage, !PLAYER_HAS_MAIL Current MoonGrocery_Ready"
+        }
+      },
+      "When": {
+        "DLX.Bundles/Purchased": "MoonGroceryBundle"
+      }
+    },
+    {
+      "LogName": "Lorilai Bedroom Completion Trigger",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "LorilaiBedroom_BundleComplete": {
+          "Id": "LorilaiBedroom_BundleComplete",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "spacechase0.SpaceCore_ShowHudMessage \"The bedroom is finished! Lorilai can now rest comfortably.\"",
+            "AddMail Current LorilaiBedroom_Ready"
+          ],
+          "Condition": "LOCATION_NAME Here Custom_Moongrocery, !PLAYER_HAS_MAIL Current LorilaiBedroom_Ready"
+        }
+      },
+      "When": {
+        "DLX.Bundles/Purchased": "LorilaiBedroomBundle"
+      }
+    },
+
+    /* --- 3. DÖRRAR SOM ÖPPNAS EFTER BUNDLES --- */
+    {
+      "LogName": "Add Moon Inn Door",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_Moonvillage",
+      "AddWarps": [
+        "9 13 Custom_oldMooninn 5 6",
+        "10 13 Custom_oldMooninn 5 6"
+      ],
+      "When": {
+        "HasFlag": "MoonInn_Ready"
+      }
+    },
+    {
+      "LogName": "Add Spirit Healer Door",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_Moonvillage",
+      "AddWarps": [
+        "6 25 Custom_Spritshouse 5 6"
+      ],
+      "When": {
+        "HasFlag": "SpiritHealer_Ready"
+      }
+    },
+    {
+      "LogName": "Add Herbalist Door",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_Moonvillage",
+      "AddWarps": [
+        "13 25 Custom_herbhouse 5 6"
+      ],
+      "When": {
+        "HasFlag": "HerbalistHouse_Ready"
+      }
+    },
+    {
+      "LogName": "Add Moon Granary Door",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_Moonvillage",
+      "AddWarps": [
+        "3 16 Custom_Moongranary 5 6"
+      ],
+      "When": {
+        "HasFlag": "MoonGranary_Ready"
+      }
+    },
+    {
+      "LogName": "Lägg till dörr till matbutiken efter bundle",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_Moonvillage",
+      "AddWarps": [
+        "20 25 Custom_Moongrocery 15 38"
+      ],
+      "When": {
+        "HasFlag": "MoonGrocery_Ready"
+      }
+    }
+  ]
+}

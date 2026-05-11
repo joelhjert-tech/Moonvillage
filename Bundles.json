@@ -1,0 +1,109 @@
+{
+  "Changes": [
+    {
+      "LogName": "Define all Unlockable Bundles",
+      "Action": "EditData",
+      "Target": "UnlockableBundles/Bundles",
+      "Entries": {
+        "AnnetteHouseBundle": {
+          "ShopType": "Dialogue",
+          "Location": "Custom_Annettehouse",
+          "ShopPosition": "5, 5",
+          "BundleName": "Renovate Annette's Townhall House",
+          "BundleDescription": "Help Annette fix her home to gain access.",
+          "DrawQuestionMark": true,
+          "PageIconBounds": { "X": 0, "Y": 0, "Width": 256, "Height": 256 },
+          "Price": {
+            "(O)388": 500,
+            "(O)390": 250
+          }
+        },
+        "MoonGroceryBundle": {
+          "ShopType": "CCBundle",
+          "Location": "Custom_AnnetteHouseInside",
+          "ShopPosition": "24, 15",
+          "BundleName": "Moon Grocery Store Repairs",
+          "BundleDescription": "Help repair the old Moon Grocery Store.",
+          "DrawQuestionMark": true,
+          "PageIconBounds": { "X": 0, "Y": 0, "Width": 256, "Height": 256 },
+          "Price": {
+            "(O)388": 500,
+            "(O)424": 50,
+            "(O)262": 100
+          }
+        },
+        "MoonGranaryBundle": {
+          "ShopType": "CCBundle",
+          "Location": "Custom_AnnetteHouseInside",
+          "ShopPosition": "18, 16",
+          "BundleName": "Moon Granary Repairs",
+          "BundleDescription": "Provide materials to fix the Moon Granary.",
+          "DrawQuestionMark": true,
+          "PageIconBounds": { "X": 0, "Y": 0, "Width": 256, "Height": 256 },
+          "Price": {
+            "(O)262": 200,
+            "(O)270": 100,
+            "(O)300": 50
+          }
+        },
+        "HerbalistHouseBundle": {
+          "ShopType": "CCBundle",
+          "Location": "Custom_AnnetteHouseInside",
+          "ShopPosition": "58, 48",
+          "BundleName": "Herbalist House Repairs",
+          "BundleDescription": "Help rebuild the Herbalist House.",
+          "DrawQuestionMark": true,
+          "PageIconBounds": { "X": 0, "Y": 0, "Width": 256, "Height": 256 },
+          "Price": {
+            "(O)771": 500,
+            "(O)256": 50,
+            "(O)595": 20
+          }
+        },
+        "SpiritHealerBundle": {
+          "ShopType": "CCBundle",
+          "Location": "Custom_AnnetteHouseInside",
+          "ShopPosition": "15, 19",
+          "BundleName": "Spirit Healer's House Repairs",
+          "BundleDescription": "Restore the Spirit Healer's home.",
+          "DrawQuestionMark": true,
+          "PageIconBounds": { "X": 0, "Y": 0, "Width": 256, "Height": 256 },
+          "Price": {
+            "(O)768": 50,
+            "(O)769": 50,
+            "(O)66": 50
+          }
+        },
+        "MoonInnBundle": {
+          "ShopType": "CCBundle",
+          "Location": "Custom_AnnetteHouseInside",
+          "ShopPosition": "6, 14",
+          "BundleName": "Moon Inn Repairs",
+          "BundleDescription": "Help renovate the old Moon Inn.",
+          "DrawQuestionMark": true,
+          "PageIconBounds": { "X": 0, "Y": 0, "Width": 256, "Height": 256 },
+          "Price": {
+            "(O)709": 150,
+            "(O)346": 50,
+            "(O)303": 50
+          }
+        },
+        "LorilaiBedroomBundle": {
+          "ShopType": "CCBundle",
+          "Location": "Custom_Moongrocery",
+          "ShopPosition": "13, 20",
+          "BundleName": "Lorilai's bedroom",
+          "BundleDescription": "Help restore Lorilais storage and bedroom",
+          "DrawQuestionMark": true,
+          "PageIconBounds": { "X": 0, "Y": 0, "Width": 256, "Height": 256 },
+          "Price": {
+            "(O)395": 250,
+            "(O)568": 10,
+            "(O)60": 50,
+			"(O)66": 50,
+          }
+        }
+      }
+    }
+  ]
+}

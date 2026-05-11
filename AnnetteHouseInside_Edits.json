@@ -1,0 +1,17 @@
+{
+  "Changes": [
+    /* --- 1. UTGÅNGAR FRÅN INSIDAN --- */
+    {
+      "LogName": "Lägg till warp ut ur Annettes hus till Moonvillage",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_AnnetteHouseInside",
+      "AddWarps": [
+        "23 49 Custom_Moonvillage 27 14",
+		"22 49 Custom_Moonvillage 27 14",
+		"21 49 Custom_Moonvillage 27 14",
+		"23 49 Custom_Moonvillage 27 14",
+		"25 49 Custom_Moonvillage 27 14"
+      ]
+    }
+  ]
+}

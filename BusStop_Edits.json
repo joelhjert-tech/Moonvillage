@@ -1,0 +1,25 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add NPC pathfinding property to BusStop",
+      "Action": "EditMap",
+      "Target": "Maps/BusStop",
+      "MapProperties": {
+        "NPCWarp": "0 21 Custom_Moonvillage 65 25"
+      }
+    },
+    {
+      "LogName": "Fix SpaceCore routing for SVE characters",
+      "Action": "EditMap",
+      "Target": "Maps/BusStop",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "MapProperties", "NPCWarp" ],
+          "Value": "0 23 Custom_DayEnd_WarpRoom 1 1",
+          "Delimiter": " "
+        }
+      ]
+    }
+  ]
+}

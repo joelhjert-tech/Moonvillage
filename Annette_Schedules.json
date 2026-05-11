@@ -1,0 +1,15 @@
+{
+  "Mon": "610 Custom_AnnetteHouseInside 16 7 2/700 BusStop 38 21 2/900 Mountain 49 31 2/1240 Custom_JenkinsHouse 24 40 2/1300 Custom_OliviaCellar 10 6 3/1900 BusStop 38 21 2/2000 Custom_Moonvillage 25 15 2",
+  "Tue": "610 Custom_AnnetteHouseInside 16 7 2/700 BusStop 38 21 2/900 Town 42 64 2/1240 Custom_JenkinsHouse 24 40 2/1300 Custom_OliviaCellar 10 6 3/2000 BusStop 38 21 2/2100 Custom_Moonvillage 25 15 2",
+  "Wed": "610 Custom_AnnetteHouseInside 16 7 2/700 BusStop 38 21 2/1000 FishShop 7 6 0/1400 Beach 13 39 2/1900 BusStop 38 21 2/2000 Custom_Moonvillage 25 15 2",
+  "Thu": "610 Custom_AnnetteHouseInside 16 7 2/700 BusStop 38 21 2/900 Town 85 60 2/1240 Custom_JenkinsHouse 24 40 2/1300 Custom_OliviaCellar 10 6 3/2000 BusStop 38 21 2/2100 Custom_Moonvillage 25 15 2",
+  "Fri": "610 Custom_AnnetteHouseInside 16 7 2/700 BusStop 38 21 2/1100 Forest 33 99 2/1900 BusStop 38 21 2/2000 Custom_Moonvillage 25 15 2",
+  "Sat": "610 Custom_AnnetteHouseInside 16 7 2/700 BusStop 38 21 2/1000 Saloon 8 22 1/1240 Custom_JenkinsHouse 24 40 2/1300 Custom_OliviaCellar 10 6 3/1500 Town 34 67 2/2000 BusStop 38 21 2/2100 Custom_Moonvillage 25 15 2",
+  "Sun": "610 Custom_AnnetteHouseInside 16 7 2/700 BusStop 38 21 2/1000 Town 80 64 2/1240 Custom_JenkinsHouse 24 40 2/1300 Custom_OliviaCellar 10 6 3/1800 BusStop 38 21 2/1900 Custom_Moonvillage 25 15 2",
+  
+  "rain": "610 Custom_AnnetteHouseInside 16 7 2/700 BusStop 38 21 2/1100 Saloon 8 19 1/1900 BusStop 38 21 2/2000 Custom_Moonvillage 25 15 2",
+  "GreenRain": "0 Custom_AnnetteHouseInside 16 7 2",
+  "SquidFest": "610 Custom_AnnetteHouseInside 16 7 2/700 BusStop 38 21 2/900 Beach 20 35 2/1900 BusStop 38 21 2/2000 Custom_Moonvillage 25 15 2",
+  "TroutDerby": "610 Custom_AnnetteHouseInside 16 7 2/700 BusStop 38 21 2/900 Forest 85 39 2/1900 BusStop 38 21 2/2000 Custom_Moonvillage 25 15 2",
+  "spring": "610 Custom_AnnetteHouseInside 16 7 2/700 BusStop 38 21 2/2000 BusStop 38 21 2/2100 Custom_Moonvillage 25 15 2"
+}

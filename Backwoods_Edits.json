@@ -1,0 +1,15 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add visual road and player warps to Backwoods",
+      "Action": "EditMap",
+      "Target": "Maps/Backwoods",
+      "FromFile": "assets/Maps/CustomWay.tbin",
+      "ToArea": { "X": 0, "Y": 14, "Width": 12, "Height": 14 },
+      "AddWarps": [
+        "0 21 Custom_Moonvillage 37 21",
+        "0 22 Custom_Moonvillage 37 20"
+      ]
+    }
+  ]
+}

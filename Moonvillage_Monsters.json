@@ -1,0 +1,35 @@
+{
+  "Changes": [
+    {
+      "LogName": "Skapa Test-Slime",
+      "Action": "EditData",
+      "Target": "aedenthorn.CustomMonsters/dict",
+      "Entries": {
+        "MinTestSlime": {
+          "Type": "GreenSlime",
+          "Parameters": "position",
+          "Health": 150,
+          "DamageToFarmer": 15,
+          "Color": "0, 255, 0"
+        }
+      }
+    },
+    {
+      "LogName": "Spawna Test-Slime på by-kartan",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_Moonvillage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 28,
+            "Y": 17
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "DMT/monster_On": "MinTestSlime 1280 1920"
+          }
+        }
+      ]
+    }
+  ]
+}

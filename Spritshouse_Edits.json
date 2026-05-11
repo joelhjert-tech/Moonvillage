@@ -1,0 +1,17 @@
+{
+  "Changes": [
+    {
+      "LogName": "Vägen ut från andehuset",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_Spritshouse",
+      "AddWarps": [ 
+	  "1 9 Custom_Moonvillage 76 39",
+	  "2 9 Custom_Moonvillage 76 39", 
+	  "3 9 Custom_Moonvillage 76 39",
+	  "5 9 Custom_Moonvillage 76 39",
+	  "6 9 Custom_Moonvillage 76 39", 
+	  "4 9 Custom_Moonvillage 76 39" 
+	  ]
+    }
+  ]
+}
