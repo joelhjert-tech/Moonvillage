@@ -20,7 +20,7 @@
           "Id": "JoelHjert.MoonVillage.ForestMagicDisturbance",
           "Trigger": "LocationChanged",
           "Actions": [
-            "spacechase0.SpaceCore_ShowHudMessage \"Something is disturbing the magic of the forest\"",
+            "spacechase0.SpaceCore_PlayEvent none/-1000 -1000/message \"{{i18n:message.magic_disturbance}}\"/end",
             "AddMail Current JoelHjert.MoonVillage.WizardInvite"
           ],
           "Condition": "LOCATION_NAME Here Woods, !PLAYER_HAS_MAIL Current JoelHjert.MoonVillage.WizardInvite"

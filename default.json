@@ -26,9 +26,11 @@
 
   /* --- MAIL: STORY & RESTORATION --- */
   /* --- MYSTERY INTRO --- */
+  "message.magic_disturbance": "Something is disturbing the magic of the forest",
   "mail.mysterious_rumor": "To the farmer...^There are whispers in the wind. An ancient magic sleeps in the Secret Woods, waiting for one with the right energy to awaken it. Seek the dormant circle...^ - A Friend",
   "event.secret_woods_anomaly": "You feel a strange, pulsating energy hidden somewhere in these woods...",
   "mail.wizard_invite": "@!^I've sensed a strange disturbance in the magical currents near the Secret Woods. It seems to be linked to an ancient legend of a lost village. Come to my tower as soon as you can; we have much to discuss.^  - Rasmodius",
+  "mail.wizard_quest_mail": "Greetings @,^As we discussed, the magical disturbances are originating from deep within the Secret Woods. Please return there and investigate further so we can understand this curse.^  - Rasmodius",
   "mail.wizard_guild_invite": "Greetings @,^My research has led me to an important conclusion regarding the woods. Meet me at the Adventurer's Guild. Annette and Marlon are waiting for us there to discuss how we shall break the curse.^  - Rasmodius",
   "mail.annette_party": "Dear @!^The curse is finally broken and life has returned to Moon Village! We cannot thank you enough for your courage. Come to the village tonight; we're throwing a party to celebrate our hero!^  - Annette",
   "mail.annette_house_ready": "Hello @,^Thank you so much for the materials! The Townhall is finally renovated. You can come visit anytime!^  - Annette",
@@ -43,6 +45,9 @@
   "mail.secret_woods_quest": "To the farmer...^There are whispers in the wind. An ancient magic sleeps in the Secret Woods, waiting to be found. Find a way in and investigate, and you will be rewarded.^ - A Friend",
   "quest.secret_woods_description": "The Wizard is concerned about magical disturbances emanating from the Secret Woods. You must find a way to bypass the fallen log and investigate the area.",
   "quest.secret_woods_objective": "Find a way into the Secret Woods.",
+  "quest.wizard_title": "The Wizard's Request",
+  "quest.wizard_description": "The Wizard sensed a magical disturbance and asked me to investigate the Secret Woods further.",
+  "quest.wizard_objective": "Return to the Secret Woods and find what could be causing it.",
   
   /* --- WIZARD EVENTS (Viktiga!) --- */
   "event.wizard_tower_1": "Ah, @... you have come. I have been watching the winds of magic, and they point toward the Secret Woods.",

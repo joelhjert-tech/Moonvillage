@@ -15,7 +15,7 @@
           "HomeRegion": "Other",
           "CanSocialize": true,
           "CanReceiveGifts": true,
-          "UnlockConditions": "f JoelHjert.MoonVillage.AnnetteMet",
+          "UnlockConditions": "PLAYER_HAS_MAIL Any JoelHjert.MoonVillage.AnnetteMet",
           "GiftTastes": "Moonvillage_Annette",
           "Home": [{ "Id": "Default", "Location": "Custom_AnnetteHouseInside", "Tile": { "X": 16, "Y": 7 }, "Direction": "down" }]
         },
@@ -28,7 +28,7 @@
           "HomeRegion": "Other",
           "CanSocialize": true,
           "CanReceiveGifts": true,
-          "UnlockConditions": "f JoelHjert.MoonVillage.AnnetteMet",
+          "UnlockConditions": "PLAYER_HAS_MAIL Any JoelHjert.MoonVillage.AnnetteMet",
           "GiftTastes": "Moonvillage_Kira",
           "Size": { "X": 32, "Y": 32 },
           "FrameSize": { "X": 32, "Y": 32 },
@@ -43,7 +43,7 @@
           "HomeRegion": "Other",
           "CanSocialize": true,
           "CanReceiveGifts": true,
-          "UnlockConditions": "f DLX.Bundles.AnnetteHouseBundle",
+          "UnlockConditions": "PLAYER_HAS_MAIL Any DLX.Bundles.AnnetteHouseBundle",
           "GiftTastes": "Moonvillage_Lorilai",
           "Home": [{ "Id": "Default", "Location": "Custom_AnnetteHouseInside", "Tile": { "X": 21, "Y": 8 }, "Direction": "down" }]
         },
@@ -56,7 +56,7 @@
           "HomeRegion": "Other",
           "CanSocialize": true,
           "CanReceiveGifts": true,
-          "UnlockConditions": "f DLX.Bundles.MoonGroceryBundle",
+          "UnlockConditions": "PLAYER_HAS_MAIL Any DLX.Bundles.MoonGroceryBundle",
           "GiftTastes": "Moonvillage_Venessa",
           "Home": [{ "Id": "Default", "Location": "Custom_AnnetteHouseInside", "Tile": { "X": 10, "Y": 8 }, "Direction": "down" }]
         }

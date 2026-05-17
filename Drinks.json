@@ -47,7 +47,6 @@
       "Action": "EditData",
       "Target": "Data/Objects",
       "Entries": {
-
         "{{ModId}}_DefenseTea": {
           "Name": "{{ModId}}_DefenseTea",
           "DisplayName": "{{i18n:defensetea.name}}",
@@ -212,6 +211,21 @@
         "{{ModId}}_AttackTea": "829 1 577 1 / Home / {{ModId}}_AttackTea 1 / false / default / {{i18n:attacktea.name}}",
         "{{ModId}}_SpeedTea": "Carrot 1 834 1 / Home / {{ModId}}_SpeedTea 1 / false / default / {{i18n:speedtea.name}}"
       }
+    },
+
+    /* --- 4. GÖR ALLA DRYCKER UNIVERSALLY LIKED --- */
+    {
+      "LogName": "Make Moonvillage drinks universally liked",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "TextOperations": [
+        {
+          "Target": [ "Entries", "Universal_Like" ],
+          "Operation": "Append",
+          "Delimiter": " ",
+          "Value": "{{ModId}}_DefenseTea {{ModId}}_LuckTea {{ModId}}_HealingTea {{ModId}}_FarmingTea {{ModId}}_MiningTea {{ModId}}_FishingTea {{ModId}}_AttackTea {{ModId}}_SpeedTea"
+        }
+      ]
     }
   ]
 }
