@@ -34,12 +34,12 @@
     {
       "Action": "Load",
       "Target": "Mods/{{ModId}}/AttackTea",
-      "FromFile": "assets/drinks/te1-1.png"
+      "FromFile": "assets/drinks/te1.png"
     },
     {
       "Action": "Load",
       "Target": "Mods/{{ModId}}/SpeedTea",
-      "FromFile": "assets/drinks/te2-1.png"
+      "FromFile": "assets/drinks/te2.png"
     },
 
     /* --- 2. SKAPA SJÄLVA DRYCKERNA (OBJECTS) --- */

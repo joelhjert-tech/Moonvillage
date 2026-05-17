@@ -26,7 +26,27 @@
           },
           "Layer": "Back",
           "SetProperties": {
-            "DMT/monster_On": "MinTestSlime 1280 1920"
+            "DMT/monster_On": "MinTestSlime 1792 1088"
+          }
+        },
+        {
+          "Position": {
+            "X": 30,
+            "Y": 18
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "DMT/monster_On": "MinTestSlime 1920 1152"
+          }
+        },
+        {
+          "Position": {
+            "X": 25,
+            "Y": 20
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "DMT/monster_On": "MinTestSlime 1600 1280"
           }
         }
       ]

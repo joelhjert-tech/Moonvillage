@@ -1,21 +1,26 @@
 {
-  "Name": "Moonvillage Monsters FTM",
-  "Author": "Du",
-  "Version": "1.0.0",
-  "Description": "Spawnar monster i Moonvillage.",
-  "UniqueID": "Annette.MoonvillageFTM",
-  "MinimumApiVersion": "3.14.0",
+  "Name": "Moon Village",
+  "Author": "Joel Hjertstedt",
+  "Version": "2.1.8",
+  "Description": "Adds a new custom NPC and content to Moonvillage.",
+  "UniqueID": "Moonvillage.AnnetteNPC",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [],
   "ContentPackFor": {
-    "UniqueID": "Esca.FarmTypeManager"
+    "UniqueID": "Pathoschild.ContentPatcher"
   },
   "Dependencies": [
     {
-      "UniqueID": "Esca.FarmTypeManager",
+      "UniqueID": "DLX.Bundles",
       "IsRequired": true
     },
     {
-      "UniqueID": "aedenthorn.CustomMonsters",
-      "IsRequired": false
+      "UniqueID": "spacechase0.SpaceCore",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": true
     }
   ]
 }

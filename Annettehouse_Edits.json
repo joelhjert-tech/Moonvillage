@@ -6,8 +6,8 @@
       "Action": "EditMap",
       "Target": "Maps/Custom_Annettehouse",
       "AddWarps": [
-        "4 8 Custom_Moonvillage 27 13",
-        "5 8 Custom_Moonvillage 28 13"
+        "4 8 Custom_Moonvillage 32 21",
+        "5 8 Custom_Moonvillage 31 21"
       ]
     },
 

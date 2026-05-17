@@ -1,17 +1,26 @@
 {
   "Changes": [
     {
-      "LogName": "Annettes brev-data",
+      "LogName": "Moon Village - Mail Data (i18n)",
       "Action": "EditData",
-      "Target": "Data/mail",
+      "Target": "Data/Mail",
       "Entries": {
-        "AnnetteHouse_Ready": "Hello @,^Thank you so much for the materials! The townhall house is finally renovated. You can come visit anytime!^  - Annette",
-        "MoonInn_Ready": "Hello @,^The Moon Inn is looking as good as new! We couldn't have done it without your help. Drop by when you have time!^  - Annette",
-        "SpiritHealer_Ready": "Greetings @,^The materials were perfect. The Spirit Healer's house has been restored to its former glory. Thank you for your kindness.^  - Annette",
-        "HerbalistHouse_Ready": "Hello @,^The Herbalist House is ready! The herbs are already starting to grow back. Come take a look when you have time.^  - Annette",
-        "MoonGranary_Ready": "Hello @,^The old Granary is fully repaired and ready to store our harvests. Your help means the world to Moonvillage!^  - Annette",
-		"LorilaiBedroom_Ready": "Hi @!^The bedroom is finally finished. It looks so cozy now! Feel free to stop by and see it.^  - Lorilai",
-        "MoonGrocery_Ready": "Hello @,^The Moon Grocery Store is open for business again! Come by and check out the new stock.^  - Annette"
+        /* --- Story Progression --- */
+        "JoelHjert.MoonVillage.MysteriousRumor": "{{i18n:mail.mysterious_rumor}}",
+        "JoelHjert.MoonVillage.WizardInvite": "{{i18n:mail.wizard_invite}}",
+        "JoelHjert.MoonVillage.WizardQuestMail": "{{i18n:mail.wizard_quest_mail}}%quest JoelHjert.MoonVillage.SecretWoodsQuest",
+        "JoelHjert.MoonVillage.WizardGuildInvite": "{{i18n:mail.wizard_guild_invite}}",
+        "JoelHjert.MoonVillage.AnnetteParty": "{{i18n:mail.annette_party}}",
+		"JoelHjert.MoonVillage.SecretWoodsQuestMail": "{{i18n:mail.secret_woods_quest}}%item quest JoelHjert.MoonVillage.SecretWoodsQuest %%",
+
+        /* --- Restoration Rewards --- */
+        "AnnetteHouse_Ready": "{{i18n:mail.annette_house_ready}}",
+        "MoonInn_Ready": "{{i18n:mail.inn_ready}}",
+        "SpiritHealer_Ready": "{{i18n:mail.spirit_healer_ready}}",
+        "HerbalistHouse_Ready": "{{i18n:mail.herbalist_ready}}",
+        "MoonGranary_Ready": "{{i18n:mail.granary_ready}}",
+        "LorilaiBedroom_Ready": "{{i18n:mail.lorilai_bedroom_ready}}",
+        "MoonGrocery_Ready": "{{i18n:mail.grocery_ready}}"
       }
     }
   ]

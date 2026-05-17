@@ -1,0 +1,12 @@
+{
+  "Changes": [
+    {
+      "LogName": "Moon Village - Quests",
+      "Action": "EditData",
+      "Target": "Data/Quests",
+      "Entries": {
+        "JoelHjert.MoonVillage.SecretWoodsQuest": "Location/{{i18n:quest.secret_woods_title}}/{{i18n:quest.secret_woods_description}}/{{i18n:quest.secret_woods_objective}}/Woods/-1/1000/-1/false"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add visual road and player warps to Woods",
+      "Action": "EditMap",
+      "Target": "Maps/Woods",
+      "FromFile": "assets/Maps/Woodsedits.tmx",
+      "ToArea": { "X": 64, "Y": 53, "Width": 26, "Height": 19 },
+      "AddWarps": [
+        "76 65 Custom_Moonvillage 37 21",
+        "77 65 Custom_Moonvillage 37 20"
+      ]
+    },
+    {
+      "LogName": "Secret Woods Magic Disturbance Message",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "JoelHjert.MoonVillage.ForestMagicDisturbance": {
+          "Id": "JoelHjert.MoonVillage.ForestMagicDisturbance",
+          "Trigger": "LocationChanged",
+          "Actions": [
+            "spacechase0.SpaceCore_ShowHudMessage \"Something is disturbing the magic of the forest\"",
+            "AddMail Current JoelHjert.MoonVillage.WizardInvite"
+          ],
+          "Condition": "LOCATION_NAME Here Woods, !PLAYER_HAS_MAIL Current JoelHjert.MoonVillage.WizardInvite"
+        }
+      }
+    }
+  ]
+}

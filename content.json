@@ -1,186 +1,80 @@
 {
-  "ForageSpawnEnabled": false,
-  "LargeObjectSpawnEnabled": false,
-  "OreSpawnEnabled": false,
-  "MonsterSpawnEnabled": true,
-  "Forage_Spawn_Settings": {
-    "Areas": [],
-    "PercentExtraSpawnsPerForagingLevel": 0,
-    "SpringItemIndex": [
-      16,
-      20,
-      22,
-      257
-    ],
-    "SummerItemIndex": [
-      396,
-      398,
-      402,
-      404
-    ],
-    "FallItemIndex": [
-      281,
-      404,
-      420,
-      422
-    ],
-    "WinterItemIndex": [],
-    "CustomTileIndex": []
-  },
-  "Large_Object_Spawn_Settings": {
-    "Areas": [],
-    "CustomTileIndex": []
-  },
-  "Ore_Spawn_Settings": {
-    "Areas": [],
-    "PercentExtraSpawnsPerMiningLevel": 0,
-    "MiningLevelRequired": {
-      "Stone": 0,
-      "Geode": 0,
-      "FrozenGeode": 5,
-      "MagmaGeode": 8,
-      "OmniGeode": 0,
-      "Gem": 6,
-      "Copper": 0,
-      "Iron": 4,
-      "Gold": 7,
-      "Iridium": 9,
-      "Mystic": 10,
-      "Radioactive": 0,
-      "Diamond": 6,
-      "Ruby": 6,
-      "Jade": 6,
-      "Amethyst": 6,
-      "Topaz": 6,
-      "Emerald": 6,
-      "Aquamarine": 6,
-      "Mussel": 0,
-      "Fossil": 0,
-      "Clay": 0,
-      "CinderShard": 0,
-      "Coal": 0
+  "Format": "2.9.0",
+
+  "CustomLocations": [
+    {
+      "Name": "Custom_Moonvillage",
+      "FromMapFile": "assets/Maps/CustomMoonvillage.tmx"
     },
-    "StartingSpawnChance": {
-      "Stone": 66,
-      "Geode": 8,
-      "FrozenGeode": 4,
-      "MagmaGeode": 2,
-      "OmniGeode": 0,
-      "Gem": 5,
-      "Copper": 21,
-      "Iron": 15,
-      "Gold": 10,
-      "Iridium": 1,
-      "Mystic": 1,
-      "Radioactive": 0,
-      "Diamond": 0,
-      "Ruby": 0,
-      "Jade": 0,
-      "Amethyst": 0,
-      "Topaz": 0,
-      "Emerald": 0,
-      "Aquamarine": 0,
-      "Mussel": 0,
-      "Fossil": 0,
-      "Clay": 0,
-      "CinderShard": 0,
-      "Coal": 0
+    {
+      "Name": "Custom_Annettehouse",
+      "FromMapFile": "assets/Maps/Annettehouse.tmx"
     },
-    "LevelTenSpawnChance": {
-      "Stone": 48,
-      "Geode": 2,
-      "FrozenGeode": 2,
-      "MagmaGeode": 2,
-      "OmniGeode": 0,
-      "Gem": 5,
-      "Copper": 16,
-      "Iron": 13,
-      "Gold": 10,
-      "Iridium": 1,
-      "Mystic": 1,
-      "Radioactive": 0,
-      "Diamond": 0,
-      "Ruby": 0,
-      "Jade": 0,
-      "Amethyst": 0,
-      "Topaz": 0,
-      "Emerald": 0,
-      "Aquamarine": 0,
-      "Mussel": 0,
-      "Fossil": 0,
-      "Clay": 0,
-      "CinderShard": 0,
-      "Coal": 0
+    {
+      "Name": "Custom_Wizardfary",
+      "FromMapFile": "assets/Maps/wizardfary.tmx"
     },
-    "CustomTileIndex": []
-  },
-  "Monster_Spawn_Settings": {
-    "Areas": [
-      {
-        "MonsterTypes": [
-          {
-            "MonsterName": "MoonvillageMonster",
-            "Settings": {}
-          },
-          {
-            "MonsterName": "Green Slime",
-            "Settings": {}
-          }
-        ],
-        "UniqueAreaID": "MoonvillageMonsterSpawn",
-        "MapName": "Custom_Moonvillage",
-        "MinimumSpawnsPerDay": 10,
-        "MaximumSpawnsPerDay": 30,
-        "IncludeTerrainTypes": [],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [
-          "1, 1; 28, 38"
-        ],
-        "ExcludeCoordinates": [],
-        "StrictTileChecking": "High",
-        "SpawnTiming": {
-          "StartTime": 600,
-          "EndTime": 2550,
-          "MinimumTimeBetweenSpawns": 10,
-          "MaximumSimultaneousSpawns": null,
-          "OnlySpawnIfAPlayerIsPresent": false,
-          "SpawnSound": ""
-        },
-        "ExtraConditions": {
-          "Years": [],
-          "Seasons": [],
-          "Days": [],
-          "WeatherYesterday": [],
-          "WeatherToday": [],
-          "WeatherTomorrow": [],
-          "GameStateQueries": [],
-          "CPConditions": {},
-          "EPUPreconditions": [],
-          "LimitedNumberOfSpawns": null
-        },
-        "DaysUntilSpawnsExpire": 1
-      }
-    ],
-    "CustomTileIndex": []
-  },
-  "QuarryTileIndex": [
-    556,
-    558,
-    583,
-    606,
-    607,
-    608,
-    630,
-    635,
-    636,
-    680,
-    681,
-    685
+    {
+      "Name": "Custom_AnnetteHouseInside",
+      "FromMapFile": "assets/Maps/AnnetteHouseInside.tmx"
+    },
+    {
+      "Name": "Custom_oldMooninn",
+      "FromMapFile": "assets/Maps/oldMooninn.tmx"
+    },
+    {
+      "Name": "Custom_Spritshouse",
+      "FromMapFile": "assets/Maps/Spritshouse.tmx"
+    },
+    {
+      "Name": "Custom_herbhouse",
+      "FromMapFile": "assets/Maps/herbhouse.tmx"
+    },
+    {
+      "Name": "Custom_Moongranary",
+      "FromMapFile": "assets/Maps/Moongranary.tmx"
+    },
+    {
+      "Name": "Custom_Moongrocery",
+      "FromMapFile": "assets/Maps/Moongrocery.tmx"
+    }
   ],
-  "File_Conditions": {
-    "FarmTypes": [],
-    "FarmerNames": [],
-    "SaveFileNames": [],
-    "OtherMods": {}
-  }
+
+  "Changes": [
+    /* --- 1. INKLUDERA KARTFILER --- */
+    { "LogName": "Ladda in Backwoods-ändringar", "Action": "Include", "FromFile": "assets/Maps/Backwoods_Edits.json" },
+    { "LogName": "Ladda in Woods-ändringar", "Action": "Include", "FromFile": "assets/Maps/Woods_Edits.json" },
+    { "LogName": "Ladda in BusStop-ändringar", "Action": "Include", "FromFile": "assets/Maps/BusStop_Edits.json" },
+    { "LogName": "Ladda in Moonvillage-ändringar", "Action": "Include", "FromFile": "assets/Maps/Moonvillage_Edits.json" },
+    { "LogName": "Ladda in Annettehouse-ändringar", "Action": "Include", "FromFile": "assets/Maps/Annettehouse_Edits.json" },
+    { "LogName": "Ladda in AnnetteHouseInside-ändringar", "Action": "Include", "FromFile": "assets/Maps/AnnetteHouseInside_Edits.json" },
+
+    /* --- 2. INKLUDERA DATA OCH KARAKTÄRER --- */
+    { "LogName": "Ladda in Bundles", "Action": "Include", "FromFile": "assets/Data/Bundles.json" },
+    { "LogName": "Ladda in Events", "Action": "Include", "FromFile": "assets/Data/Events.json" },
+    { "LogName": "Ladda in Quests", "Action": "Include", "FromFile": "assets/Data/Quests.json" },
+    { "LogName": "Ladda in Strängar", "Action": "Include", "FromFile": "assets/Data/Strings.json" },
+    { "LogName": "Ladda in Karaktärer och Resurser", "Action": "Include", "FromFile": "assets/Data/Characters.json" },
+    { "LogName": "Ladda in Brev", "Action": "Include", "FromFile": "assets/Data/Mail.json" },
+    { "LogName": "Ladda in Butiker", "Action": "Include", "FromFile": "assets/Data/Shops.json" },
+    { "LogName": "Ladda in Drycker", "Action": "Include", "FromFile": "assets/Data/Drinks.json" },
+    { "LogName": "Ladda in Monster", "Action": "Include", "FromFile": "assets/Data/Moonvillage_Monsters.json" },
+    { "LogName": "Ladda in Special Orders", "Action": "Include", "FromFile": "assets/Data/SpecialOrders.json" },
+    { "LogName": "Ladda in Special Order Strings", "Action": "Include", "FromFile": "assets/Data/SOStrings.json" },
+
+    /* --- 3. INKLUDERA NYA HUS (FRÅN BUNDLES) --- */
+    { "LogName": "Ladda in Moon Inn", "Action": "Include", "FromFile": "assets/Maps/oldMooninn_Edits.json" },
+    { "LogName": "Ladda in Spirits House", "Action": "Include", "FromFile": "assets/Maps/Spritshouse_Edits.json" },
+    { "LogName": "Ladda in Herb House", "Action": "Include", "FromFile": "assets/Maps/herbhouse_Edits.json" },
+    { "LogName": "Ladda in Moon Granary", "Action": "Include", "FromFile": "assets/Maps/Moongranary_Edits.json" },
+    { "LogName": "Ladda in Moon Grocery", "Action": "Include", "FromFile": "assets/Maps/Moongrocery_Edits.json" },
+
+    /* --- 4. LADDA IN GRAFIK / SPRITES --- */
+    {
+      "LogName": "Ladda in MoonBat_Unique Sprite",
+      "Action": "Load",
+      "Target": "Characters/Monsters/MoonBat_Unique",
+      "FromFile": "assets/Characters/Monsters/MoonBat_Unique.png"
+    }
+  ]
 }
