@@ -1,55 +1,43 @@
 {
   "Changes": [
+    /* --- 1. LADDA IN MONSTRETS BILD --- */
     {
-      "LogName": "Skapa Test-Slime",
+      "Action": "Load",
+      "Target": "Mods/aedenthorn.CustomMonsters/Boss_moon",
+      "FromFile": "assets/Characters/Monsters/Boss_moon.png" 
+    },
+
+    /* --- 2. DEFINIERA MONSTRETS STATISTIK OCH DROPS --- */
+    {
+      "LogName": "Moon Village - Register Boss Moon Monster",
       "Action": "EditData",
       "Target": "aedenthorn.CustomMonsters/dict",
       "Entries": {
-        "MinTestSlime": {
-          "Type": "GreenSlime",
-          "Parameters": "position",
-          "Health": 150,
-          "DamageToFarmer": 15,
-          "Color": "0, 255, 0"
+        "Moonvillage_MoonBoss": {
+          "Type": "ShadowBrute", // Vilket vanilla-monster logiken ska baseras på
+          "Sprite": "Mods/aedenthorn.CustomMonsters/Boss_moon", // Sökvägen till bilden vi laddade in ovan
+          "Health": 1000, // Bossens maximala hälsa
+          "Damage": 30,   // Skada på spelaren per träff
+          "Speed": 3,     // Monstrets hastighet
+          "Experience": 100, // Hur mycket XP spelaren får vid vinst
+          "Resilience": 12,  // Monstrets försvar/rustning
+          "ClearDrops": true, // Tar bort standardbyten så vi kan sätta egna
+          "Drops": [
+            {
+              "ItemId": "(O)72", // ID för Diamond (Diamant)
+              "MinQuantity": 1,
+              "MaxQuantity": 3,
+              "Chance": 100       // 100 % chans att tappa diamanter
+            },
+            {
+              "ItemId": "(O)74", // ID för Prismatic Shard (Prismatiskt skärva)
+              "MinQuantity": 1,
+              "MaxQuantity": 1,
+              "Chance": 25        // 25 % chans att tappa en prismatisk skärva
+            }
+          ]
         }
       }
-    },
-    {
-      "LogName": "Spawna Test-Slime på by-kartan",
-      "Action": "EditMap",
-      "Target": "Maps/Custom_Moonvillage",
-      "MapTiles": [
-        {
-          "Position": {
-            "X": 28,
-            "Y": 17
-          },
-          "Layer": "Back",
-          "SetProperties": {
-            "DMT/monster_On": "MinTestSlime 1792 1088"
-          }
-        },
-        {
-          "Position": {
-            "X": 30,
-            "Y": 18
-          },
-          "Layer": "Back",
-          "SetProperties": {
-            "DMT/monster_On": "MinTestSlime 1920 1152"
-          }
-        },
-        {
-          "Position": {
-            "X": 25,
-            "Y": 20
-          },
-          "Layer": "Back",
-          "SetProperties": {
-            "DMT/monster_On": "MinTestSlime 1600 1280"
-          }
-        }
-      ]
     }
   ]
 }

@@ -50,7 +50,7 @@
       "Target": "Data/Events/Custom_Moonvillage",
       "When": { "HasFlag": "JoelHjert.MoonVillage.GuildMeetingDone" },
       "Entries": {
-        "991005/t 600 2400": "night_market/-1000 -1000/Moonvillage_Annette 30 20 2/skippable/viewport 30 30 true/pause 500/move Moonvillage_Annette 0 10 2/speak Moonvillage_Annette \"{{i18n:event.moonvillage_arrival.annette_1}}\"/speak Moonvillage_Annette \"{{i18n:event.moonvillage_arrival.annette_2}}\"/addMailReceived JoelHjert.MoonVillage.ArrivalDone/end"
+        "991005/t 600 2400": "night_market/-1000 -100053 53/farmer 53 53 1 Moonvillage_Annette 61 57 3 Moonvillage_Kira 62 57 3/skippable/move Moonvillage_Annette -6 0 3/move Moonvillage_Annette 0 -4 2 true/move Moonvillage_Kira -7 0 3/move Moonvillage_Kira 0 -2 2/speak Moonvillage_Annette \"{{i18n:event.moonvillage_arrival.annette_1}}\"/speak Moonvillage_Annette \"{{i18n:event.moonvillage_arrival.annette_2}}\"/addMailReceived JoelHjert.MoonVillage.ArrivalDone/end"
       }
     }
   ]
