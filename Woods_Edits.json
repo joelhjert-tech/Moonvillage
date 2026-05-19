@@ -5,10 +5,19 @@
       "Action": "EditMap",
       "Target": "Maps/Woods",
       "FromFile": "assets/Maps/Woodsedits.tmx",
-      "ToArea": { "X": 64, "Y": 53, "Width": 26, "Height": 19 },
+      "ToArea": { "X": 63, "Y": 49, "Width": 26, "Height": 19 },
       "AddWarps": [
         "76 65 Custom_Moonvillage 37 21",
         "77 65 Custom_Moonvillage 37 20"
+      ],
+      "MapTiles": [
+        {
+          "Position": { "X": 12, "Y": 9 },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "MagicWarp Custom_Moonvillage 25 25"
+          }
+        }
       ]
     },
     {

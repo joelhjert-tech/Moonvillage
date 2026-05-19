@@ -41,10 +41,8 @@
   ],
 
   "Changes": [
-    /* --- 1. INKLUDERA KARTFILER --- */
-    { "LogName": "Ladda in Backwoods-ändringar", "Action": "Include", "FromFile": "assets/Maps/Backwoods_Edits.json" },
+    /* --- 1. INKLUDERA KARTFILER --- */ 
     { "LogName": "Ladda in Woods-ändringar", "Action": "Include", "FromFile": "assets/Maps/Woods_Edits.json" },
-    { "LogName": "Ladda in BusStop-ändringar", "Action": "Include", "FromFile": "assets/Maps/BusStop_Edits.json" },
     { "LogName": "Ladda in Moonvillage-ändringar", "Action": "Include", "FromFile": "assets/Maps/Moonvillage_Edits.json" },
     { "LogName": "Ladda in Annettehouse-ändringar", "Action": "Include", "FromFile": "assets/Maps/Annettehouse_Edits.json" },
     { "LogName": "Ladda in AnnetteHouseInside-ändringar", "Action": "Include", "FromFile": "assets/Maps/AnnetteHouseInside_Edits.json" },
@@ -75,6 +73,12 @@
       "Action": "Load",
       "Target": "Characters/Monsters/MoonBat_Unique",
       "FromFile": "assets/Characters/Monsters/MoonBat_Unique.png"
+    },
+    {
+      "LogName": "Ladda in Boss_moon Sprite",
+      "Action": "Load",
+      "Target": "Characters/Monsters/Boss_moon",
+      "FromFile": "assets/Characters/Monsters/Boss_moon.png"
     }
   ]
 }
