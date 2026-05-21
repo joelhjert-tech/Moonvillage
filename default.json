@@ -23,14 +23,15 @@
 
   "speedtea.name": "Speed Tea",
   "speedtea.desc": "A refreshing mix of carrot and mango. Gives you a burst of energy and speed.",
+  
+  "event.quest_reward_random_tea": "You received a random magical tea.",
 
   /* --- MAIL: STORY & RESTORATION --- */
-  /* --- MYSTERY INTRO --- */
-  "message.magic_disturbance": "Something is disturbing the magic of the forest",
+  "message.magic_disturbance": "The air grows heavy and sparks with a strange, unnatural energy...",
   "mail.mysterious_rumor": "To the farmer...^There are whispers in the wind. An ancient magic sleeps in the Secret Woods, waiting for one with the right energy to awaken it. Seek the dormant circle...^ - A Friend",
-  "event.secret_woods_anomaly": "You feel a strange, pulsating energy hidden somewhere in these woods...",
+  "event.secret_woods_anomaly": "A strange shimmer ripples through the air toward the overgrown passage in the north... Something ancient has just awakened.",
   "mail.wizard_invite": "@!^I've sensed a strange disturbance in the magical currents near the Secret Woods. It seems to be linked to an ancient legend of a lost village. Come to my tower as soon as you can; we have much to discuss.^  - Rasmodius",
-  "mail.wizard_quest_mail": "Greetings @,^As we discussed, the magical disturbances are originating from deep within the Secret Woods. Please return there and investigate further so we can understand this curse.^  - Rasmodius",
+  "mail.wizard_quest_mail": "Greetings @,^As we discussed, the magical disturbances are fluctuating deep within the Secret Woods. Return to the clearing and investigate further. We must uncover the truth behind this creeping shadow.^  - Rasmodius",
   "mail.wizard_guild_invite": "Greetings @,^My research has led me to an important conclusion regarding the woods. Meet me at the Adventurer's Guild. Annette and Marlon are waiting for us there to discuss how we shall break the curse.^  - Rasmodius",
   "mail.annette_party": "Dear @!^The curse is finally broken and life has returned to Moon Village! We cannot thank you enough for your courage. Come to the village tonight; we're throwing a party to celebrate our hero!^  - Annette",
   "mail.annette_house_ready": "Hello @,^Thank you so much for the materials! The Townhall is finally renovated. You can come visit anytime!^  - Annette",
@@ -43,23 +44,23 @@
   /* --- QUESTS --- */
   "quest.secret_woods_title": "A Path Into the Woods",
   "mail.secret_woods_quest": "To the farmer...^There are whispers in the wind. An ancient magic sleeps in the Secret Woods, waiting to be found. Find a way in and investigate, and you will be rewarded.^ - A Friend",
-  "quest.secret_woods_description": "The Wizard is concerned about magical disturbances emanating from the Secret Woods. You must find a way to bypass the fallen log and investigate the area.",
+  "quest.secret_woods_description": "An anonymous letter claims that an ancient power lies dormant within the hidden depths of the forest. Perhaps it's time to investigate what lies beyond the old overgrown paths.",
   "quest.secret_woods_objective": "Find a way into the Secret Woods.",
   "quest.wizard_title": "The Wizard's Request",
   "quest.wizard_description": "The Wizard sensed a magical disturbance and asked me to investigate the Secret Woods further.",
   "quest.wizard_objective": "Return to the Secret Woods and find what could be causing it.",
   
   /* --- WIZARD EVENTS (Viktiga!) --- */
-  "event.wizard_tower_1": "Ah, @... you have come. I have been watching the winds of magic, and they point toward the Secret Woods.",
-  "event.wizard_tower_2": "Something ancient is stirring. A village, long forgotten and shrouded in shadow. Go, investigate the disturbance.",
-  "event.wizard_tower_3": "Look here, farmer. The magic is distorted near this area.",
+  "event.wizard_tower_1": "Ah, @... right on time. The arcane ley-lines have been thrashing wildly, and their apex points directly toward the Secret Woods.",
+  "event.wizard_tower_2": "An ancient anomaly is bleeding into our reality. Legends speak of a settlement long forgotten, swallowed by shadows centuries ago. You must go there, adept, and peer into the dark.",
+  "event.wizard_tower_3": "Do you feel it, farmer? The very fabric of magic is warped and distorted in this clearing.",
 
   /* --- STAGE 4: ANNETTE INTRO --- */
-  "event.annette_intro_1": "Are you the one who broke the seal to these woods?",
-  "event.annette_intro_2": "My name is Annette. I'm the Prefect of a village that... well, it's complicated. And you are?",
-  "event.annette_intro_3": "@! By opening the way to these woods, you have done a far greater good than you realize. I cannot fully express how grateful I am.",
-  "event.annette_intro_4": "Do you mind if I ask for a bit of help? Does the valley currently have a witch or wizard protecting the area?",
-  "event.annette_intro_5": "Thank you so much again! I must go speak with him as fast as I can, but I mean it about being grateful. I will find a way to thank you properly, I promise!",
+  "event.annette_intro_1": "A stranger...? Stay back! Wait... you don't look like one of Leander's shadows...",
+  "event.annette_intro_2": "Forgive me, my mind is still hazy. I am Annette, Prefect of Moon Village... or what remains of it. Who might you be?",
+  "event.annette_intro_3": "@... A farmer? Incredible. By forcing your way into these woods, you have shattered a barrier we thought was absolute. I cannot fully express the weight of what you've done.",
+  "event.annette_intro_4": "Tell me, @... is there someone else in this valley who commands the arcane? A witch, or perhaps a wizard?",
+  "event.annette_intro_5": "Then there is no time to lose. I must seek out this wizard immediately. Stay safe, farmer, but know that you have given my people a flicker of hope. We shall meet again, I promise!",
 
   /* --- STAGE 6: THE GUILD MEETING --- */
   "event.guild_meeting.wizard_1": "Thank you for coming, @. We have much to discuss regarding the curse on Moon Village.",
@@ -68,7 +69,7 @@
   "event.guild_meeting.marlon_2": "Same here, just old stories shared on cold nights by a fire.",
   "event.guild_meeting.annette_1": "I assure you my home is real and so is the curse. But I can’t break it by myself.",
   
-  "event.guild_meeting.q1": "A curse????",
+  "event.guild_meeting.q1": "A curse?!?!",
   "event.guild_meeting.q2": "Why can’t you break it yourself?",
   
   "event.guild_meeting.marlon_3": "The short version is that a power mad wizard cast a curse that was supposed to freeze the village in time forever. But Annette here was able to cast a spell that put in a loophole.",
@@ -81,6 +82,13 @@
   
   "event.moonvillage_arrival.annette_1": "Welcome to Moon Village, @. Or... what is left of it.",
   "event.moonvillage_arrival.annette_2": "The people you see... they aren't moving. The curse has frozen them in time. We need to restore the village's magic to wake them.",
+  "event.moonvillage_arrival.annette_3": "The old Townhall is the center of our magic. I will wait for you there. Please, @... bring the light back to my home.",
+
+/* --- NEW QUEST: THE ARCANE KEY --- */
+  "quest.arcane_key_title": "The Arcane Key",
+  "quest.arcane_key_description": "The Wizard needs rare materials to stabilize the portal to Moon Village.",
+  "quest.arcane_key_objective": "Deliver the items to Rasmodius: 1 Void Essence, 1 Magma Cap, 5 Quartz.",
+  "quest.arcane_key_complete": "The portal to Moon Village is now active!",
   
   /* --- BUNDLES --- */
   "bundle.townhall.name": "Moon Village Restoration",
@@ -99,6 +107,12 @@
   "bundle.moon_inn.desc": "Help renovate the old Hidden Hearth.",
   "bundle.moon_granary.name": "Cosmic Corral Repairs",
   "bundle.moon_granary.desc": "Provide materials to fix the Cosmic Corral.",
+  
+  /* --- STAGE 8: LORILAI WAKES UP --- */
+  "event.townhall_fixed.annette_1": "@, you did it! The arcane energy is flowing back into the Townhall. Look... the ice is melting!",
+  "event.townhall_fixed.lorilai_1": "W-what happened? It felt like I just blinked, but everything is so... overgrown and cold. Annette? Who is this stranger?",
+  "event.townhall_fixed.annette_2": "It is a very long story, Lorilai. We were cursed by Leander, but this farmer has brought us our first spark of hope.",
+  "event.townhall_fixed.lorilai_2": "Cursed...? I need to check my herbs immediately! Thank you, stranger, whoever you are. We are in your debt.",
 
   /* --- ANNETTE DIALOGUE --- */
   "annette.dialogue.Introduction": "Hello! You must be @, the new farmer. I'm Annette. If you ever need anything, please ask. Kira and I were just going for a walk. $1",

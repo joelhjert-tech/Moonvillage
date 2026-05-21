@@ -7,6 +7,10 @@
       "FromMapFile": "assets/Maps/CustomMoonvillage.tmx"
     },
     {
+      "Name": "Custom_Maze",
+      "FromMapFile": "assets/Maps/Mazequest.tmx"
+    },
+    {
       "Name": "Custom_Annettehouse",
       "FromMapFile": "assets/Maps/Annettehouse.tmx"
     },
@@ -46,6 +50,7 @@
     { "LogName": "Ladda in Moonvillage-ändringar", "Action": "Include", "FromFile": "assets/Maps/Moonvillage_Edits.json" },
     { "LogName": "Ladda in Annettehouse-ändringar", "Action": "Include", "FromFile": "assets/Maps/Annettehouse_Edits.json" },
     { "LogName": "Ladda in AnnetteHouseInside-ändringar", "Action": "Include", "FromFile": "assets/Maps/AnnetteHouseInside_Edits.json" },
+    { "LogName": "Ladda in Wizardfary-ändringar", "Action": "Include", "FromFile": "assets/Maps/wizardfary_Edits.json" },
 
     /* --- 2. INKLUDERA DATA OCH KARAKTÄRER --- */
     { "LogName": "Ladda in Bundles", "Action": "Include", "FromFile": "assets/Data/Bundles.json" },

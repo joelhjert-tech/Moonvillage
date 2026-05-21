@@ -5,33 +5,35 @@
       "Action": "EditData",
       "Target": "UnlockableBundles/Bundles",
       "Entries": {
-        /* --- STEG 8: ANNETTE HOUSE --- */
-        "AnnetteHouseBundle": {
+        
+        /* --- STEG 8: TOWNHALL (Annette's House) --- */
+        "TownhallBundle": {
           "ShopType": "Dialogue",
           "Location": "Custom_Annettehouse",
           "ShopPosition": "5, 5",
-          "BundleName": "{{i18n:bundle.annette_house.name}}",
-          "BundleDescription": "{{i18n:bundle.annette_house.desc}}",
+          "BundleName": "{{i18n:bundle.townhall.name}}",
+          "BundleDescription": "{{i18n:bundle.townhall.description}}",
           "DrawQuestionMark": true,
           "Price": { "(O)388": 500, "(O)390": 250 },
           "BundleCompletedActions": [
-            "UB_PlaceBundle SpiritHealerBundle",
+            "UB_PlaceBundle HerbalistHouseBundle",
+            "AddMail JoelHjert.MoonVillage.TownhallBundleComplete",
             "AddMail AnnetteHouse_Ready"
           ]
         },
 
-        /* --- STEG 9: SPIRIT HEALER --- */
-        "SpiritHealerBundle": {
+        /* --- STEG 9: HERBALIST HOUSE (Celestial Remedies) --- */
+        "HerbalistHouseBundle": {
           "ShopType": "CCBundle",
           "Location": "Custom_AnnetteHouseInside",
-          "ShopPosition": "15, 19",
-          "BundleName": "{{i18n:bundle.spirit_healer.name}}",
-          "BundleDescription": "{{i18n:bundle.spirit_healer.desc}}",
+          "ShopPosition": "58, 48",
+          "BundleName": "{{i18n:bundle.herbalist.name}}",
+          "BundleDescription": "{{i18n:bundle.herbalist.desc}}",
           "DrawQuestionMark": true,
-          "Price": { "(O)768": 50, "(O)769": 50, "(O)66": 50 },
+          "Price": { "(O)771": 500, "(O)256": 50, "(O)595": 20 },
           "BundleCompletedActions": [
             "UB_PlaceBundle MoonGroceryBundle",
-            "AddMail SpiritHealer_Ready"
+            "AddMail HerbalistHouse_Ready"
           ]
         },
 
@@ -45,23 +47,23 @@
           "DrawQuestionMark": true,
           "Price": { "(O)388": 500, "(O)424": 50, "(O)262": 100 },
           "BundleCompletedActions": [
-            "UB_PlaceBundle HerbalistHouseBundle",
+            "UB_PlaceBundle SpiritHealerBundle",
             "AddMail MoonGrocery_Ready"
           ]
         },
 
-        /* --- STEG 11: HERBALIST HOUSE (Celestial Remedies) --- */
-        "HerbalistHouseBundle": {
+        /* --- STEG 11: SPIRIT HEALER (Witch Tower) --- */
+        "SpiritHealerBundle": {
           "ShopType": "CCBundle",
           "Location": "Custom_AnnetteHouseInside",
-          "ShopPosition": "58, 48",
-          "BundleName": "{{i18n:bundle.herbalist.name}}",
-          "BundleDescription": "{{i18n:bundle.herbalist.desc}}",
+          "ShopPosition": "15, 19",
+          "BundleName": "{{i18n:bundle.spirit_healer.name}}",
+          "BundleDescription": "{{i18n:bundle.spirit_healer.desc}}",
           "DrawQuestionMark": true,
-          "Price": { "(O)771": 500, "(O)256": 50, "(O)595": 20 },
+          "Price": { "(O)768": 50, "(O)769": 50, "(O)66": 50 },
           "BundleCompletedActions": [
             "UB_PlaceBundle MoonInnBundle",
-            "AddMail HerbalistHouse_Ready"
+            "AddMail SpiritHealer_Ready"
           ]
         },
 

@@ -1,5 +1,6 @@
 {
   "Changes": [
+    /* --- 1. VANLIGA WARPS OCH VÄG (Laddas direkt från start) --- */
     {
       "LogName": "Add visual road and player warps to Woods",
       "Action": "EditMap",
@@ -9,10 +10,20 @@
       "AddWarps": [
         "76 65 Custom_Moonvillage 37 21",
         "77 65 Custom_Moonvillage 37 20"
-      ],
+      ]
+    },
+
+    /* --- 2. MAGISK WARP (Låses upp först efter att Wizard-questet är klart!) --- */
+    {
+      "LogName": "Add Secret Woods Magic Warp (After Wizard Quest)",
+      "Action": "EditMap",
+      "Target": "Maps/Woods",
+      "When": {
+        "HasFlag": "JoelHjert.MoonVillage.WarpActive"
+      },
       "MapTiles": [
         {
-          "Position": { "X": 12, "Y": 9 },
+          "Position": { "X": 75, "Y": 58 },
           "Layer": "Back",
           "SetProperties": {
             "TouchAction": "MagicWarp Custom_Moonvillage 25 25"
@@ -20,6 +31,8 @@
         }
       ]
     },
+
+    /* --- 3. SKOGS-ANOMALI TRIGGER --- */
     {
       "LogName": "Secret Woods Magic Disturbance Message",
       "Action": "EditData",
