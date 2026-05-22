@@ -4,12 +4,15 @@
       "LogName": "Vägen ut från matbutiken",
       "Action": "EditMap",
       "Target": "Maps/Custom_Moongrocery",
-      "AddWarps": [ 
-        "14 39 Custom_Moonvillage 20 26", 
+      "AddWarps": [
+        "14 39 Custom_Moonvillage 20 26",
         "16 39 Custom_Moonvillage 20 26",
-        "17 39 Custom_Moonvillage 20 26",       
-        "15 39 Custom_Moonvillage 20 26" 
-      ]
+        "17 39 Custom_Moonvillage 20 26",
+        "15 39 Custom_Moonvillage 20 26"
+      ],
+      "MapProperties": {
+        "NPCWarp": "14 39 Custom_Moonvillage 20 26 15 39 Custom_Moonvillage 20 26 16 39 Custom_Moonvillage 20 26 17 39 Custom_Moonvillage 20 26"
+      }
     },
     {
       "LogName": "Aktivera kassan på specifika rutor efter bundle",
@@ -17,14 +20,20 @@
       "Target": "Maps/Custom_Moongrocery",
       "MapTiles": [
         {
-          "Position": { "X": 8, "Y": 21 },
+          "Position": {
+            "X": 8,
+            "Y": 21
+          },
           "Layer": "Buildings",
           "SetProperties": {
             "Action": "OpenShop Moonvillage.AnnetteNPC_GroceryShop"
           }
         },
         {
-          "Position": { "X": 9, "Y": 21 },
+          "Position": {
+            "X": 9,
+            "Y": 21
+          },
           "Layer": "Buildings",
           "SetProperties": {
             "Action": "OpenShop Moonvillage.AnnetteNPC_GroceryShop"
@@ -40,8 +49,8 @@
       "Action": "EditMap",
       "Target": "Maps/Custom_Moongrocery",
       "FromFile": "assets/Maps/MoongroceryBundlecomplete.tmx",
-      "When": { 
-        "HasFlag": "LorilaiBedroom_Ready" 
+      "When": {
+        "HasFlag": "LorilaiBedroom_Ready"
       }
     },
     {
@@ -50,10 +59,13 @@
       "Target": "Maps/Custom_Moongrocery",
       "MapTiles": [
         {
-          "Position": { "X": 25, "Y": 15 },
+          "Position": {
+            "X": 25,
+            "Y": 15
+          },
           "Layer": "Buildings",
-          "SetProperties": { 
-            "Action": "Door Lorilai" 
+          "SetProperties": {
+            "Action": "Door Lorilai"
           }
         }
       ],

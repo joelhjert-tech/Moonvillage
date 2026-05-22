@@ -1,6 +1,5 @@
 {
   "Changes": [
-    /* --- 1. KARTÄNDRINGAR: MOONVILLAGE --- */
     {
       "LogName": "Add warps and interaction messages to Moonvillage",
       "Action": "EditMap",
@@ -17,33 +16,51 @@
         "32 20 Custom_Annettehouse 4 6"
       ],
       "MapProperties": {
-        "NPCWarp": "37 21 BusStop 1 23"
+        "NPCWarp": "37 21 BusStop 0 23 31 21 Custom_Annettehouse 4 8 32 21 Custom_Annettehouse 5 8 31 20 Custom_Annettehouse 4 8 32 20 Custom_Annettehouse 5 8 31 21 Custom_AnnetteHouseInside 23 48 32 21 Custom_AnnetteHouseInside 23 48 19 44 Custom_Moongrocery 15 39 20 44 Custom_Moongrocery 15 39 46 33 Custom_oldMooninn 4 9 47 33 Custom_oldMooninn 4 9 34 33 Custom_Spritshouse 4 9 52 10 Custom_herbhouse 4 9 52 11 Custom_herbhouse 4 9 14 13 Custom_Moongranary 4 9 15 13 Custom_Moongranary 5 9 83 0 Custom_Wizardfary 8 59 84 0 Custom_Wizardfary 9 59 85 0 Custom_Wizardfary 7 59 86 0 Custom_Wizardfary 7 59 99 18 Farm 4 6 99 19 Farm 4 6 99 20 Farm 4 6"
       },
       "MapTiles": [
         {
-          "Position": { "X": 57, "Y": 31 },
+          "Position": {
+            "X": 57,
+            "Y": 31
+          },
           "Layer": "Buildings",
-          "SetProperties": { "Action": "Message Moonvillage.FoodPrep" }
+          "SetProperties": {
+            "Action": "Message Moonvillage.FoodPrep"
+          }
         },
         {
-          "Position": { "X": 58, "Y": 31 },
+          "Position": {
+            "X": 58,
+            "Y": 31
+          },
           "Layer": "Buildings",
-          "SetProperties": { "Action": "Message Moonvillage.FoodPrep" }
+          "SetProperties": {
+            "Action": "Message Moonvillage.FoodPrep"
+          }
         },
         {
-          "Position": { "X": 91, "Y": 15 },
+          "Position": {
+            "X": 91,
+            "Y": 15
+          },
           "Layer": "Buildings",
-          "SetProperties": { "Action": "Message Moonvillage.RoadSignenter" }
+          "SetProperties": {
+            "Action": "Message Moonvillage.RoadSignenter"
+          }
         },
         {
-          "Position": { "X": 63, "Y": 1 },
+          "Position": {
+            "X": 63,
+            "Y": 1
+          },
           "Layer": "Buildings",
-          "SetProperties": { "Action": "Message Moonvillage.RoadSign" }
+          "SetProperties": {
+            "Action": "Message Moonvillage.RoadSign"
+          }
         }
       ]
     },
-
-    /* --- 2. MEDDELANDE OCH BREV-TRIGGER EFTER BUNDLES --- */
     {
       "LogName": "Annette Bundle Notification Action",
       "Action": "EditData",
@@ -177,8 +194,6 @@
         "DLX.Bundles/Purchased": "LorilaiBedroomBundle"
       }
     },
-
-    /* --- 3. DÖRRAR SOM ÖPPNAS EFTER BUNDLES --- */
     {
       "LogName": "Add Moon Inn Door",
       "Action": "EditMap",
@@ -208,7 +223,7 @@
       "Target": "Maps/Custom_Moonvillage",
       "AddWarps": [
         "52 10 Custom_herbhouse 5 6",
-	    "52 11 Custom_herbhouse 5 6"
+        "52 11 Custom_herbhouse 5 6"
       ],
       "When": {
         "HasFlag": "HerbalistHouse_Ready"
@@ -220,7 +235,7 @@
       "Target": "Maps/Custom_Moonvillage",
       "AddWarps": [
         "14 13 Custom_Moongranary 5 6",
-		"15 13 Custom_Moongranary 5 6"
+        "15 13 Custom_Moongranary 5 6"
       ],
       "When": {
         "HasFlag": "MoonGranary_Ready"

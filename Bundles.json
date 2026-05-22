@@ -5,8 +5,6 @@
       "Action": "EditData",
       "Target": "UnlockableBundles/Bundles",
       "Entries": {
-        
-        /* --- STEG 8: TOWNHALL (Annette's House) --- */
         "TownhallBundle": {
           "ShopType": "Dialogue",
           "Location": "Custom_Annettehouse",
@@ -14,15 +12,16 @@
           "BundleName": "{{i18n:bundle.townhall.name}}",
           "BundleDescription": "{{i18n:bundle.townhall.description}}",
           "DrawQuestionMark": true,
-          "Price": { "(O)388": 500, "(O)390": 250 },
+          "Price": {
+            "(O)388": 500,
+            "(O)390": 250
+          },
           "BundleCompletedActions": [
             "UB_PlaceBundle HerbalistHouseBundle",
-            "AddMail JoelHjert.MoonVillage.TownhallBundleComplete",
-            "AddMail AnnetteHouse_Ready"
+            "AddMail Current JoelHjert.MoonVillage.TownhallBundleComplete Received",
+            "AddMail Current AnnetteHouse_Ready Received"
           ]
         },
-
-        /* --- STEG 9: HERBALIST HOUSE (Celestial Remedies) --- */
         "HerbalistHouseBundle": {
           "ShopType": "CCBundle",
           "Location": "Custom_AnnetteHouseInside",
@@ -30,14 +29,16 @@
           "BundleName": "{{i18n:bundle.herbalist.name}}",
           "BundleDescription": "{{i18n:bundle.herbalist.desc}}",
           "DrawQuestionMark": true,
-          "Price": { "(O)771": 500, "(O)256": 50, "(O)595": 20 },
+          "Price": {
+            "(O)771": 500,
+            "(O)256": 50,
+            "(O)595": 20
+          },
           "BundleCompletedActions": [
             "UB_PlaceBundle MoonGroceryBundle",
-            "AddMail HerbalistHouse_Ready"
+            "AddMail Current HerbalistHouse_Ready Received"
           ]
         },
-
-        /* --- STEG 10: MOON GROCERY --- */
         "MoonGroceryBundle": {
           "ShopType": "CCBundle",
           "Location": "Custom_AnnetteHouseInside",
@@ -45,14 +46,16 @@
           "BundleName": "{{i18n:bundle.moon_grocery.name}}",
           "BundleDescription": "{{i18n:bundle.moon_grocery.desc}}",
           "DrawQuestionMark": true,
-          "Price": { "(O)388": 500, "(O)424": 50, "(O)262": 100 },
+          "Price": {
+            "(O)388": 500,
+            "(O)424": 50,
+            "(O)262": 100
+          },
           "BundleCompletedActions": [
             "UB_PlaceBundle SpiritHealerBundle",
-            "AddMail MoonGrocery_Ready"
+            "AddMail Current MoonGrocery_Ready Received"
           ]
         },
-
-        /* --- STEG 11: SPIRIT HEALER (Witch Tower) --- */
         "SpiritHealerBundle": {
           "ShopType": "CCBundle",
           "Location": "Custom_AnnetteHouseInside",
@@ -60,14 +63,16 @@
           "BundleName": "{{i18n:bundle.spirit_healer.name}}",
           "BundleDescription": "{{i18n:bundle.spirit_healer.desc}}",
           "DrawQuestionMark": true,
-          "Price": { "(O)768": 50, "(O)769": 50, "(O)66": 50 },
+          "Price": {
+            "(O)768": 50,
+            "(O)769": 50,
+            "(O)66": 50
+          },
           "BundleCompletedActions": [
             "UB_PlaceBundle MoonInnBundle",
-            "AddMail SpiritHealer_Ready"
+            "AddMail Current SpiritHealer_Ready Received"
           ]
         },
-
-        /* --- STEG 12: MOON INN (Hidden Hearth) --- */
         "MoonInnBundle": {
           "ShopType": "CCBundle",
           "Location": "Custom_AnnetteHouseInside",
@@ -75,14 +80,16 @@
           "BundleName": "{{i18n:bundle.moon_inn.name}}",
           "BundleDescription": "{{i18n:bundle.moon_inn.desc}}",
           "DrawQuestionMark": true,
-          "Price": { "(O)709": 150, "(O)346": 50, "(O)303": 50 },
+          "Price": {
+            "(O)709": 150,
+            "(O)346": 50,
+            "(O)303": 50
+          },
           "BundleCompletedActions": [
             "UB_PlaceBundle MoonGranaryBundle",
-            "AddMail MoonInn_Ready"
+            "AddMail Current MoonInn_Ready Received"
           ]
         },
-
-        /* --- STEG 13: GRANARY (Cosmic Corral) - SISTA BUNDLEN --- */
         "MoonGranaryBundle": {
           "ShopType": "CCBundle",
           "Location": "Custom_AnnetteHouseInside",
@@ -90,10 +97,14 @@
           "BundleName": "{{i18n:bundle.moon_granary.name}}",
           "BundleDescription": "{{i18n:bundle.moon_granary.desc}}",
           "DrawQuestionMark": true,
-          "Price": { "(O)262": 200, "(O)270": 100, "(O)300": 50 },
+          "Price": {
+            "(O)262": 200,
+            "(O)270": 100,
+            "(O)300": 50
+          },
           "BundleCompletedActions": [
-            "AddMail MoonGranary_Ready",
-            "AddMail JoelHjert.MoonVillage.AllBundlesDone"
+            "AddMail Current MoonGranary_Ready Received",
+            "AddMail Current JoelHjert.MoonVillage.AllBundlesDone Received"
           ]
         }
       }

@@ -1,39 +1,73 @@
 {
   "Changes": [
-    /* --- 1. LADDA IN MONSTRETS BILD --- */
     {
+      "LogName": "Moon Village - Load Boss Moon Sprite",
       "Action": "Load",
-      "Target": "Mods/aedenthorn.CustomMonsters/Boss_moon",
-      "FromFile": "assets/Characters/Monsters/Boss_moon.png" 
+      "Target": "{{ModId}}/Boss_moon",
+      "FromFile": "assets/Characters/Monsters/Boss_moon.png"
     },
-
-    /* --- 2. DEFINIERA MONSTRETS STATISTIK OCH DROPS --- */
     {
       "LogName": "Moon Village - Register Boss Moon Monster",
       "Action": "EditData",
       "Target": "aedenthorn.CustomMonsters/dict",
       "Entries": {
         "Moonvillage_MoonBoss": {
-          "Type": "ShadowBrute", // Vilket vanilla-monster logiken ska baseras på
-          "Sprite": "Mods/aedenthorn.CustomMonsters/Boss_moon", // Sökvägen till bilden vi laddade in ovan
-          "Health": 1000, // Bossens maximala hälsa
-          "Damage": 30,   // Skada på spelaren per träff
-          "Speed": 3,     // Monstrets hastighet
-          "Experience": 100, // Hur mycket XP spelaren får vid vinst
-          "Resilience": 12,  // Monstrets försvar/rustning
-          "ClearDrops": true, // Tar bort standardbyten så vi kan sätta egna
+          "Type": "ShadowBrute",
+          "Parameters": "position",
+          "Sprite": "{{ModId}}/Boss_moon",
+          "Health": 1000,
+          "Damage": 30,
+          "Speed": 3,
+          "Experience": 100,
+          "Resilience": 12,
+          "ClearDrops": true,
           "Drops": [
             {
-              "ItemId": "(O)72", // ID för Diamond (Diamant)
+              "ItemId": "(O)72",
               "MinQuantity": 1,
               "MaxQuantity": 3,
-              "Chance": 100       // 100 % chans att tappa diamanter
+              "Chance": 100
             },
             {
-              "ItemId": "(O)74", // ID för Prismatic Shard (Prismatiskt skärva)
+              "ItemId": "(O)74",
               "MinQuantity": 1,
               "MaxQuantity": 1,
-              "Chance": 25        // 25 % chans att tappa en prismatisk skärva
+              "Chance": 25
+            },
+            {
+              "ItemId": "(O)Moonvillage.AnnetteNPC_DefenseTea",
+              "MinQuantity": 1,
+              "MaxQuantity": 1,
+              "Chance": 15
+            },
+            {
+              "ItemId": "(O)Moonvillage.AnnetteNPC_AttackTea",
+              "MinQuantity": 1,
+              "MaxQuantity": 1,
+              "Chance": 15
+            },
+            {
+              "ItemId": "(O)Moonvillage.AnnetteNPC_HealingTea",
+              "MinQuantity": 1,
+              "MaxQuantity": 1,
+              "Chance": 15
+            }
+          ],
+          "LocationSpawns": [
+            {
+              "Location": "Custom_Maze",
+              "MinSpawn": 1,
+              "MaxSpawn": 1,
+              "MaxAmount": 1,
+              "MinTile": {
+                "X": 5,
+                "Y": 5
+              },
+              "MaxTile": {
+                "X": 45,
+                "Y": 45
+              },
+              "Respawn": "Daily"
             }
           ]
         }

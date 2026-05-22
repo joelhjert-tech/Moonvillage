@@ -1,7 +1,7 @@
 {
   "Name": "Moon Village",
   "Author": "Joel Hjertstedt",
-  "Version": "2.2.0",
+  "Version": "2.2.1",
   "Description": "Adds a new custom NPC and content to Moonvillage.",
   "UniqueID": "Moonvillage.AnnetteNPC",
   "MinimumApiVersion": "4.0.0",
@@ -20,6 +20,10 @@
     },
     {
       "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": true
+    },
+	{
+      "UniqueID": "aedenthorn.CustomMonsters",
       "IsRequired": true
     }
   ]

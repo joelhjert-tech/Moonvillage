@@ -51,6 +51,7 @@
     { "LogName": "Ladda in Annettehouse-ändringar", "Action": "Include", "FromFile": "assets/Maps/Annettehouse_Edits.json" },
     { "LogName": "Ladda in AnnetteHouseInside-ändringar", "Action": "Include", "FromFile": "assets/Maps/AnnetteHouseInside_Edits.json" },
     { "LogName": "Ladda in Wizardfary-ändringar", "Action": "Include", "FromFile": "assets/Maps/wizardfary_Edits.json" },
+	{ "LogName": "Ladda in BusStop-ändringar", "Action": "Include", "FromFile": "assets/Maps/BusStop_Edits.json" },
 
     /* --- 2. INKLUDERA DATA OCH KARAKTÄRER --- */
     { "LogName": "Ladda in Bundles", "Action": "Include", "FromFile": "assets/Data/Bundles.json" },
@@ -61,7 +62,6 @@
     { "LogName": "Ladda in Brev", "Action": "Include", "FromFile": "assets/Data/Mail.json" },
     { "LogName": "Ladda in Butiker", "Action": "Include", "FromFile": "assets/Data/Shops.json" },
     { "LogName": "Ladda in Drycker", "Action": "Include", "FromFile": "assets/Data/Drinks.json" },
-    { "LogName": "Ladda in Monster", "Action": "Include", "FromFile": "assets/Data/Moonvillage_Monsters.json" },
     { "LogName": "Ladda in Special Orders", "Action": "Include", "FromFile": "assets/Data/SpecialOrders.json" },
     { "LogName": "Ladda in Special Order Strings", "Action": "Include", "FromFile": "assets/Data/SOStrings.json" },
 
